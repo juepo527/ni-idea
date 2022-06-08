@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    background: url(../imagenes/223-2234471_fondos-de-pantalla-para-pc-del-universo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(44, 0, 0);
+    font-family: Helvetica;
+}
+nav{
+    background-color: rgba(0, 93, 185, 0.212);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: rgb(75, 0, 92);
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(22, 1, 40, 0.212);
+    border-radius: 50px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(108, 0, 203, 0.212);
+}
+button[type="sumbit"]{
+    background-color: red;
+    color:  rgb(78, 7, 7);
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    background-color: rgba(152, 33, 255, 0.212);
+}
